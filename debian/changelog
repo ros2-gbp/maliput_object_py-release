@@ -1,0 +1,37 @@
+ros-foxy-maliput-object-py (0.1.2-1focal) focal; urgency=high
+
+  * Pairs with BoundingRegion being moved to maliput. (#8 <https://github.com/maliput/maliput_object_py/issues/8>)
+  * Adds triage workflow. (#6 <https://github.com/maliput/maliput_object_py/issues/6>)
+  * Improves README. (#5 <https://github.com/maliput/maliput_object_py/issues/5>)
+  * Contributors: Franco Cipollone
+
+ -- Daniel Stonier <daniel.stonier@tri.global>  Tue, 23 Aug 2022 03:00:00 -0000
+
+ros-foxy-maliput-object-py (0.1.1-1focal) focal; urgency=high
+
+  * Fixes package's license path.
+  * Contributors: Franco Cipollone
+
+ -- Daniel Stonier <daniel.stonier@tri.global>  Tue, 21 Jun 2022 03:00:00 -0000
+
+ros-foxy-maliput-object-py (0.1.0-1focal) focal; urgency=high
+
+  * Updates package.xml file.
+  * Removes unnecessary dependencies.
+  * Removes constructor where unique_ptr is being used.
+  * Uses ros-action-ci for main workflow.
+  * Uses pybind11-dev package via rosdep.
+  * Use doc_depend label for ament_cmake_doxygen dependency.
+  * Sets up CI.
+  * Brings some infra-related files.
+  * Moves maliput_object_py to the repository's root.
+  * Updates license.
+  * Creates bindings for the maliput::object::api namespace.
+  * Adds maliput_object_py to CI.
+  * Creates the package for the python bindings.
+  * Initial commit
+  * Contributors: Franco Cipollone, Voldivh
+
+ -- Daniel Stonier <daniel.stonier@tri.global>  Tue, 21 Jun 2022 03:00:00 -0000
+
+
